@@ -1,0 +1,6 @@
+framework module Pods_Playlet_PlayletUITests {
+  umbrella header "Pods-Playlet-PlayletUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

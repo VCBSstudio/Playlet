@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		42DCE9887D094099980B3766 /* Pods_PlayletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512FC6736F386D5F5B10D5BF /* Pods_PlayletTests.framework */; };
+		5613963996ABDB3547EB1D35 /* Pods_Playlet_PlayletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503D7E8715270877F91CEC44 /* Pods_Playlet_PlayletUITests.framework */; };
+		FEC4A73DFB18F26BF6C9E002 /* Pods_Playlet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BA5895F16DA23FA30D1B7E /* Pods_Playlet.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1DE003262D1C044500E59081 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,21 +33,36 @@
 		1DE003142D1C044300E59081 /* Playlet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playlet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE003252D1C044500E59081 /* PlayletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE0032F2D1C044500E59081 /* PlayletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E391820ADCCAF8D874CAF8 /* Pods-Playlet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playlet.debug.xcconfig"; path = "Target Support Files/Pods-Playlet/Pods-Playlet.debug.xcconfig"; sourceTree = "<group>"; };
+		503D7E8715270877F91CEC44 /* Pods_Playlet_PlayletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Playlet_PlayletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		512FC6736F386D5F5B10D5BF /* Pods_PlayletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BA5895F16DA23FA30D1B7E /* Pods_Playlet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Playlet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66CE8F44C11982057740BE9 /* Pods-PlayletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayletTests.debug.xcconfig"; path = "Target Support Files/Pods-PlayletTests/Pods-PlayletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8DB221897FB1DB5D0B2FBB8 /* Pods-Playlet-PlayletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playlet-PlayletUITests.debug.xcconfig"; path = "Target Support Files/Pods-Playlet-PlayletUITests/Pods-Playlet-PlayletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5B1247978E770344E3C524D /* Pods-Playlet-PlayletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playlet-PlayletUITests.release.xcconfig"; path = "Target Support Files/Pods-Playlet-PlayletUITests/Pods-Playlet-PlayletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB6065C22328F13093F4A865 /* Pods-PlayletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayletTests.release.xcconfig"; path = "Target Support Files/Pods-PlayletTests/Pods-PlayletTests.release.xcconfig"; sourceTree = "<group>"; };
+		F067F2B4B5638C42602DFB16 /* Pods-Playlet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playlet.release.xcconfig"; path = "Target Support Files/Pods-Playlet/Pods-Playlet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1DE003162D1C044300E59081 /* Playlet */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = Playlet;
 			sourceTree = "<group>";
 		};
 		1DE003282D1C044500E59081 /* PlayletTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = PlayletTests;
 			sourceTree = "<group>";
 		};
 		1DE003322D1C044500E59081 /* PlayletUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = PlayletUITests;
 			sourceTree = "<group>";
 		};
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC4A73DFB18F26BF6C9E002 /* Pods_Playlet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DCE9887D094099980B3766 /* Pods_PlayletTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5613963996ABDB3547EB1D35 /* Pods_Playlet_PlayletUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		025D246ABB365B76B1B3F5D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60BA5895F16DA23FA30D1B7E /* Pods_Playlet.framework */,
+				503D7E8715270877F91CEC44 /* Pods_Playlet_PlayletUITests.framework */,
+				512FC6736F386D5F5B10D5BF /* Pods_PlayletTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1DE0030B2D1C044300E59081 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +113,8 @@
 				1DE003282D1C044500E59081 /* PlayletTests */,
 				1DE003322D1C044500E59081 /* PlayletUITests */,
 				1DE003152D1C044300E59081 /* Products */,
+				706BC61F60689814AA9291B8 /* Pods */,
+				025D246ABB365B76B1B3F5D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +128,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		706BC61F60689814AA9291B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38E391820ADCCAF8D874CAF8 /* Pods-Playlet.debug.xcconfig */,
+				F067F2B4B5638C42602DFB16 /* Pods-Playlet.release.xcconfig */,
+				D8DB221897FB1DB5D0B2FBB8 /* Pods-Playlet-PlayletUITests.debug.xcconfig */,
+				E5B1247978E770344E3C524D /* Pods-Playlet-PlayletUITests.release.xcconfig */,
+				D66CE8F44C11982057740BE9 /* Pods-PlayletTests.debug.xcconfig */,
+				EB6065C22328F13093F4A865 /* Pods-PlayletTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DE003392D1C044500E59081 /* Build configuration list for PBXNativeTarget "Playlet" */;
 			buildPhases = (
+				064889F36F7E67A4C13B2A0C /* [CP] Check Pods Manifest.lock */,
 				1DE003102D1C044300E59081 /* Sources */,
 				1DE003112D1C044300E59081 /* Frameworks */,
 				1DE003122D1C044300E59081 /* Resources */,
+				91B9DC10F7B59E196FBF6117 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +163,6 @@
 				1DE003162D1C044300E59081 /* Playlet */,
 			);
 			name = Playlet;
-			packageProductDependencies = (
-			);
 			productName = Playlet;
 			productReference = 1DE003142D1C044300E59081 /* Playlet.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DE0033C2D1C044500E59081 /* Build configuration list for PBXNativeTarget "PlayletTests" */;
 			buildPhases = (
+				23C1BAC05E133E8B74D30668 /* [CP] Check Pods Manifest.lock */,
 				1DE003212D1C044500E59081 /* Sources */,
 				1DE003222D1C044500E59081 /* Frameworks */,
 				1DE003232D1C044500E59081 /* Resources */,
@@ -134,8 +185,6 @@
 				1DE003282D1C044500E59081 /* PlayletTests */,
 			);
 			name = PlayletTests;
-			packageProductDependencies = (
-			);
 			productName = PlayletTests;
 			productReference = 1DE003252D1C044500E59081 /* PlayletTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DE0033F2D1C044500E59081 /* Build configuration list for PBXNativeTarget "PlayletUITests" */;
 			buildPhases = (
+				802CC94435E3F1969793FD16 /* [CP] Check Pods Manifest.lock */,
 				1DE0032B2D1C044500E59081 /* Sources */,
 				1DE0032C2D1C044500E59081 /* Frameworks */,
 				1DE0032D2D1C044500E59081 /* Resources */,
+				F4E78D01ADE619047C2D4ED5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +208,6 @@
 				1DE003322D1C044500E59081 /* PlayletUITests */,
 			);
 			name = PlayletUITests;
-			packageProductDependencies = (
-			);
 			productName = PlayletUITests;
 			productReference = 1DE0032F2D1C044500E59081 /* PlayletUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +279,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		064889F36F7E67A4C13B2A0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Playlet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23C1BAC05E133E8B74D30668 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		802CC94435E3F1969793FD16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Playlet-PlayletUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91B9DC10F7B59E196FBF6117 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playlet/Pods-Playlet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playlet/Pods-Playlet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Playlet/Pods-Playlet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E78D01ADE619047C2D4ED5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playlet-PlayletUITests/Pods-Playlet-PlayletUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playlet-PlayletUITests/Pods-Playlet-PlayletUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Playlet-PlayletUITests/Pods-Playlet-PlayletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1DE003102D1C044300E59081 /* Sources */ = {
@@ -385,6 +537,7 @@
 		};
 		1DE0033A2D1C044500E59081 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E391820ADCCAF8D874CAF8 /* Pods-Playlet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,6 +575,7 @@
 		};
 		1DE0033B2D1C044500E59081 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F067F2B4B5638C42602DFB16 /* Pods-Playlet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +613,7 @@
 		};
 		1DE0033D2D1C044500E59081 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66CE8F44C11982057740BE9 /* Pods-PlayletTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +636,7 @@
 		};
 		1DE0033E2D1C044500E59081 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6065C22328F13093F4A865 /* Pods-PlayletTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +659,7 @@
 		};
 		1DE003402D1C044500E59081 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8DB221897FB1DB5D0B2FBB8 /* Pods-Playlet-PlayletUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -524,6 +681,7 @@
 		};
 		1DE003412D1C044500E59081 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B1247978E770344E3C524D /* Pods-Playlet-PlayletUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
